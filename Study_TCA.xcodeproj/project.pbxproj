@@ -16,6 +16,8 @@
 		FB6D568E2AD4F1AA00628AA9 /* Study_TCAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6D568D2AD4F1AA00628AA9 /* Study_TCAUITestsLaunchTests.swift */; };
 		FB6D569C2AD4F27400628AA9 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = FB6D569B2AD4F27400628AA9 /* ComposableArchitecture */; };
 		FB6D569E2AD52F4000628AA9 /* RepoSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6D569D2AD52F4000628AA9 /* RepoSearch.swift */; };
+		FB6D56A22AD54A0F00628AA9 /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6D56A12AD54A0F00628AA9 /* CounterFeature.swift */; };
+		FB6D56A42AD550AC00628AA9 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6D56A32AD550AC00628AA9 /* CounterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		FB6D568B2AD4F1AA00628AA9 /* Study_TCAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_TCAUITests.swift; sourceTree = "<group>"; };
 		FB6D568D2AD4F1AA00628AA9 /* Study_TCAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_TCAUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FB6D569D2AD52F4000628AA9 /* RepoSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoSearch.swift; sourceTree = "<group>"; };
+		FB6D56A12AD54A0F00628AA9 /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
+		FB6D56A32AD550AC00628AA9 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 		FB6D566F2AD4F1A800628AA9 /* Study_TCA */ = {
 			isa = PBXGroup;
 			children = (
+				FB6D569F2AD549F200628AA9 /* Tutorial */,
 				FB6D56702AD4F1A800628AA9 /* Study_TCAApp.swift */,
 				FB6D569D2AD52F4000628AA9 /* RepoSearch.swift */,
 				FB6D56722AD4F1A800628AA9 /* RepoSearchView.swift */,
@@ -130,6 +135,23 @@
 				FB6D568D2AD4F1AA00628AA9 /* Study_TCAUITestsLaunchTests.swift */,
 			);
 			path = Study_TCAUITests;
+			sourceTree = "<group>";
+		};
+		FB6D569F2AD549F200628AA9 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				FB6D56A02AD549FA00628AA9 /* YourFirstFeature */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
+		FB6D56A02AD549FA00628AA9 /* YourFirstFeature */ = {
+			isa = PBXGroup;
+			children = (
+				FB6D56A12AD54A0F00628AA9 /* CounterFeature.swift */,
+				FB6D56A32AD550AC00628AA9 /* CounterView.swift */,
+			);
+			path = YourFirstFeature;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +293,8 @@
 				FB6D569E2AD52F4000628AA9 /* RepoSearch.swift in Sources */,
 				FB6D56732AD4F1A800628AA9 /* RepoSearchView.swift in Sources */,
 				FB6D56712AD4F1A800628AA9 /* Study_TCAApp.swift in Sources */,
+				FB6D56A22AD54A0F00628AA9 /* CounterFeature.swift in Sources */,
+				FB6D56A42AD550AC00628AA9 /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
