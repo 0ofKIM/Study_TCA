@@ -51,6 +51,7 @@
 		FB6D569D2AD52F4000628AA9 /* RepoSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoSearch.swift; sourceTree = "<group>"; };
 		FB6D56A12AD54A0F00628AA9 /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
 		FB6D56A32AD550AC00628AA9 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		FBA8F9872AD67A0200550811 /* Study-TCA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Study-TCA-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +103,9 @@
 		FB6D566F2AD4F1A800628AA9 /* Study_TCA */ = {
 			isa = PBXGroup;
 			children = (
+				FBA8F9872AD67A0200550811 /* Study-TCA-Info.plist */,
 				FB6D569F2AD549F200628AA9 /* Tutorial */,
 				FB6D56702AD4F1A800628AA9 /* Study_TCAApp.swift */,
-				FB6D569D2AD52F4000628AA9 /* RepoSearch.swift */,
-				FB6D56722AD4F1A800628AA9 /* RepoSearchView.swift */,
 				FB6D56742AD4F1AA00628AA9 /* Assets.xcassets */,
 				FB6D56762AD4F1AA00628AA9 /* Preview Content */,
 			);
@@ -140,6 +140,7 @@
 		FB6D569F2AD549F200628AA9 /* Tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				FBA8F9862AD675D200550811 /* CodeSquad */,
 				FB6D56A02AD549FA00628AA9 /* YourFirstFeature */,
 			);
 			path = Tutorial;
@@ -152,6 +153,15 @@
 				FB6D56A32AD550AC00628AA9 /* CounterView.swift */,
 			);
 			path = YourFirstFeature;
+			sourceTree = "<group>";
+		};
+		FBA8F9862AD675D200550811 /* CodeSquad */ = {
+			isa = PBXGroup;
+			children = (
+				FB6D569D2AD52F4000628AA9 /* RepoSearch.swift */,
+				FB6D56722AD4F1A800628AA9 /* RepoSearchView.swift */,
+			);
+			path = CodeSquad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -456,6 +466,8 @@
 				DEVELOPMENT_TEAM = 833DD2H3KD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Study-TCA-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -485,6 +497,8 @@
 				DEVELOPMENT_TEAM = 833DD2H3KD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Study-TCA-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
