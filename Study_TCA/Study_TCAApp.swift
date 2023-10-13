@@ -10,8 +10,13 @@ import ComposableArchitecture
 
 @main
 struct Study_TCAApp: App {
-    static let store = Store(initialState: CounterFeature.State()) {
+    static let store1 = Store(initialState: CounterFeature.State()) {
         CounterFeature()
+            ._printChanges()
+    }
+
+    static let store2 = Store(initialState: ContactsFeature.State()) {
+        ContactsFeature()
             ._printChanges()
     }
 
@@ -22,7 +27,10 @@ struct Study_TCAApp: App {
 //            RepoSearchView(store: store)
 
             //Tutorial 1. Your First Feature
-            CounterView(store: Study_TCAApp.store)
+//            CounterView(store: Study_TCAApp.store1)
+
+            //Tutorial 2. Your first presentation
+            ContactsView(store: Study_TCAApp.store2)
         }
     }
 }
