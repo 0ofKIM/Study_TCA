@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		526A84A92B01153C0001B20A /* CounterView1_0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526A84A82B01153C0001B20A /* CounterView1_0.swift */; };
+		FB441D432B01FA7200A4DE9A /* RecordMeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB441D422B01FA7200A4DE9A /* RecordMeetingView.swift */; };
 		FB6D56712AD4F1A800628AA9 /* Study_TCAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6D56702AD4F1A800628AA9 /* Study_TCAApp.swift */; };
 		FB6D56732AD4F1A800628AA9 /* RepoSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6D56722AD4F1A800628AA9 /* RepoSearchView.swift */; };
 		FB6D56752AD4F1AA00628AA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB6D56742AD4F1AA00628AA9 /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		526A84A82B01153C0001B20A /* CounterView1_0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView1_0.swift; sourceTree = "<group>"; };
+		FB441D422B01FA7200A4DE9A /* RecordMeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordMeetingView.swift; sourceTree = "<group>"; };
 		FB6D566D2AD4F1A800628AA9 /* Study_TCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Study_TCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB6D56702AD4F1A800628AA9 /* Study_TCAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_TCAApp.swift; sourceTree = "<group>"; };
 		FB6D56722AD4F1A800628AA9 /* RepoSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoSearchView.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				526A84A82B01153C0001B20A /* CounterView1_0.swift */,
+				FB441D422B01FA7200A4DE9A /* RecordMeetingView.swift */,
 			);
 			path = "TCA 1.0";
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				FB6D569E2AD52F4000628AA9 /* RepoSearch.swift in Sources */,
 				FB6D56732AD4F1A800628AA9 /* RepoSearchView.swift in Sources */,
 				FB6D56712AD4F1A800628AA9 /* Study_TCAApp.swift in Sources */,
+				FB441D432B01FA7200A4DE9A /* RecordMeetingView.swift in Sources */,
 				FB95CD352AD7B7F100BFC00E /* AddContactFeature.swift in Sources */,
 				FB6D56A22AD54A0F00628AA9 /* CounterFeature.swift in Sources */,
 				FB6D56A42AD550AC00628AA9 /* CounterView.swift in Sources */,
