@@ -24,6 +24,7 @@
 		FB95CD352AD7B7F100BFC00E /* AddContactFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB95CD342AD7B7F100BFC00E /* AddContactFeature.swift */; };
 		FB95CD372AD7D94000BFC00E /* AddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB95CD362AD7D94000BFC00E /* AddContactView.swift */; };
 		FBA8F98A2AD6887300550811 /* ContactsFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA8F9892AD6887300550811 /* ContactsFeature.swift */; };
+		FBE226272B05965500EAC9CE /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE226262B05965500EAC9CE /* SettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		FB95CD362AD7D94000BFC00E /* AddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactView.swift; sourceTree = "<group>"; };
 		FBA8F9872AD67A0200550811 /* Study-TCA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Study-TCA-Info.plist"; sourceTree = SOURCE_ROOT; };
 		FBA8F9892AD6887300550811 /* ContactsFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsFeature.swift; sourceTree = "<group>"; };
+		FBE226262B05965500EAC9CE /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				526A84A82B01153C0001B20A /* CounterView1_0.swift */,
 				FB441D422B01FA7200A4DE9A /* RecordMeetingView.swift */,
+				FBE226262B05965500EAC9CE /* SettingView.swift */,
 			);
 			path = "TCA 1.0";
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 				FB6D56A42AD550AC00628AA9 /* CounterView.swift in Sources */,
 				FB95CD372AD7D94000BFC00E /* AddContactView.swift in Sources */,
 				526A84A92B01153C0001B20A /* CounterView1_0.swift in Sources */,
+				FBE226272B05965500EAC9CE /* SettingView.swift in Sources */,
 				FBA8F98A2AD6887300550811 /* ContactsFeature.swift in Sources */,
 				FB95CD332AD7B64400BFC00E /* ContactsView.swift in Sources */,
 			);
